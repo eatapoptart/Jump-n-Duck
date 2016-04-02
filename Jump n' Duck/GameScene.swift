@@ -972,44 +972,46 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         boxMovement(deltaTime)
         
-        let sprite = sprites.first
         
-        if(sprite!.inDuck == true)
+        for sprite in sprites
         {
-            sprite!.duckTimer += deltaTime
-            
-            if(sprite!.duckTimer >= 0.5)
+            if(sprite.inDuck == true)
             {
-                sprite!.inDuck = false
-                sprite!.duckTimer = 0.0
+                sprite.duckTimer += deltaTime
                 
-                sprite!.runningAnimation()
+                if(sprite.duckTimer >= 0.5)
+                {
+                    sprite.inDuck = false
+                    sprite.duckTimer = 0.0
+                    
+                    sprite.runningAnimation()
+                }
             }
-        }
-        if(sprite!.inAir == true && jumpHeld == true)
-        {
-            sprite!.getCollidable().velocity.dy -= CGFloat((jumpVel*jumpDecay) * deltaTime)
-            //jumpDecay -= 0.001 * deltaTime
-            if(jumpDecay <= 0.0)
+            if(sprite.inAir == true && jumpHeld == true)
             {
-                jumpDecay = 0.0
+                sprite.getCollidable().velocity.dy -= CGFloat((jumpVel*jumpDecay) * deltaTime)
+                //jumpDecay -= 0.001 * deltaTime
+                if(jumpDecay <= 0.0)
+                {
+                    jumpDecay = 0.0
+                }
             }
-        }
-        if(sprite!.damaged)
-        {
-            sprite!.damageTimer += deltaTime
-            if(sprite!.damageTimer >= 0.3)
+            if(sprite.damaged)
             {
-                sprite!.endDamage()
+                sprite.damageTimer += deltaTime
+                if(sprite.damageTimer >= 0.3)
+                {
+                    sprite.endDamage()
+                }
             }
-        }
-        if(sprite!.knockbackPos >= 5)
-        {
-            if(sprite!.alive == true)
+            if(sprite.knockbackPos >= 5)
             {
-                sprite!.alive = false
-                sprite!.getCollidable().collisionBitMask = 0
-                sprite!.getCollidable().applyImpulse(CGVector(dx: 0.0, dy: 100))
+                if(sprite.alive == true)
+                {
+                    sprite.alive = false
+                    sprite.getCollidable().collisionBitMask = 0
+                    sprite.getCollidable().applyImpulse(CGVector(dx: 0.0, dy: 100))
+                }
             }
         }
     }
