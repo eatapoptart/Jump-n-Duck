@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BB3E903A00825643DD3FAFC83ACF593770EB800E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0E017ED1EBA165B3B0FCF7D708B1CCE75AE530DA" : 0,
+    "BB3E903A00825643DD3FAFC83ACF593770EB800E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "24A991A3-DFE4-4E7B-8C9D-A626E36D6340",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0E017ED1EBA165B3B0FCF7D708B1CCE75AE530DA" : "Jump%20n'%20Duck\/Jump%20n'%20Duck\/",
+    "BB3E903A00825643DD3FAFC83ACF593770EB800E" : "Jump%20n'%20Duck\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Jump n' Duck",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Jump n' Duck.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eatapoptart\/Jump-n-Duck.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E017ED1EBA165B3B0FCF7D708B1CCE75AE530DA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eatapoptart\/Jump-n-Duck",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB3E903A00825643DD3FAFC83ACF593770EB800E"
+    }
+  ]
+}

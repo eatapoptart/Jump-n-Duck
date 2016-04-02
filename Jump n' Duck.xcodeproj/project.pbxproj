@@ -16,6 +16,7 @@
 		911193881C51B71E00D9164C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911193861C51B71E00D9164C /* LaunchScreen.storyboard */; };
 		911193931C51B71E00D9164C /* Jump_n__DuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911193921C51B71E00D9164C /* Jump_n__DuckTests.swift */; };
 		9111939E1C51B71E00D9164C /* Jump_n__DuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9111939D1C51B71E00D9164C /* Jump_n__DuckUITests.swift */; };
+		91BB249B1C75331400AEB672 /* running_5.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 91BB249A1C75331400AEB672 /* running_5.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		911193991C51B71E00D9164C /* Jump n' DuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jump n' DuckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9111939D1C51B71E00D9164C /* Jump_n__DuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jump_n__DuckUITests.swift; sourceTree = "<group>"; };
 		9111939F1C51B71E00D9164C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BB249A1C75331400AEB672 /* running_5.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = running_5.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		911193781C51B71E00D9164C /* Jump n' Duck */ = {
 			isa = PBXGroup;
 			children = (
+				91BB249A1C75331400AEB672 /* running_5.atlas */,
 				911193791C51B71E00D9164C /* AppDelegate.swift */,
 				9111937B1C51B71E00D9164C /* GameScene.sks */,
 				9111937D1C51B71E00D9164C /* GameScene.swift */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9111937C1C51B71E00D9164C /* GameScene.sks in Resources */,
+				91BB249B1C75331400AEB672 /* running_5.atlas in Resources */,
 				911193881C51B71E00D9164C /* LaunchScreen.storyboard in Resources */,
 				911193851C51B71E00D9164C /* Assets.xcassets in Resources */,
 				911193831C51B71E00D9164C /* Main.storyboard in Resources */,
@@ -495,6 +499,7 @@
 				911193A41C51B71E00D9164C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911193A51C51B71E00D9164C /* Build configuration list for PBXNativeTarget "Jump n' DuckTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				911193A71C51B71E00D9164C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911193A81C51B71E00D9164C /* Build configuration list for PBXNativeTarget "Jump n' DuckUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				911193AA1C51B71E00D9164C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
